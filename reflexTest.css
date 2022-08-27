@@ -1,0 +1,43 @@
+body {
+  background-color: #f4f7c5;
+}
+.game_heading {
+  text-align: center;
+  color: #aacdbe;
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+}
+#letter_display {
+  color: #ea907a;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
+}
+.retry_button {
+  background-color: #ea907a;
+  font-size: 20px;
+  padding: 12px 28px;
+  border-radius: 8px;
+  color: #fbc687;
+  border-color: #fbc687;
+  border-style: outset;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.retry_button:hover {
+  color: #ea907a;
+  border-color: #ea907a;
+  background-color: #fbc687;
+  box-shadow: 3px 3px #9e9090;
+}
+.retry_button:active {
+  transform: translateY(4px);
+  transition-duration: 0.3s;
+}
+
+/*
+#ea907a
+#fbc687
+#f4f7c5
+#aacdbe
+*/
